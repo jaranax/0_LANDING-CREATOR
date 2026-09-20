@@ -1,0 +1,46 @@
+La propuesta de layout de la home queda aprobada.
+
+Ahora pasa a implementación.
+
+Antes de programar, lee obligatoriamente:
+
+- AGENTS.md
+- BRIEF.md
+- PRODUCT.md
+- DESIGN.md
+- references/screenshots/
+
+Respeta:
+
+1. La dirección visual definida en DESIGN.md.
+2. El layout de la home que acabamos de aprobar.
+3. La arquitectura comercial definida:
+   - Hero
+   - Tres razones
+   - Terapia / servicio
+   - Reseñas
+   - FAQ
+   - Formulario
+   - Footer
+
+Inicializa el proyecto frontend con un stack adecuado para una web corporativa moderna.
+
+Prioriza:
+- código limpio;
+- responsive real;
+- componentes reutilizables cuando tengan sentido;
+- accesibilidad;
+- rendimiento;
+- fidelidad al DESIGN.md.
+
+No replantees la dirección visual ni la estructura.
+
+Si todavía no disponemos de contenido definitivo, utiliza copy provisional coherente con el proyecto y deja claramente identificados los elementos que deberán sustituirse.
+
+Construye únicamente la home en esta primera iteración.
+
+Al terminar:
+- ejecuta el proyecto;
+- verifica que compila correctamente;
+- revisa desktop y móvil;
+- informa brevemente de lo construido y de cualquier elemento pendiente.
