@@ -1,0 +1,107 @@
+Estamos preparando el diseño de esta web.
+
+Antes de programar, trabaja únicamente en el contexto y la dirección visual.
+
+## 1. Revisa el proyecto
+
+Lee:
+
+- `AGENTS.md`
+- `BRIEF.md`
+- `PRODUCT.md`
+- `DESIGN.md`
+- todas las imágenes disponibles en `references/screenshots/`
+
+## 2. Contexto del proyecto
+
+Proyecto:
+Web para un psicólogo especializado principalmente en terapia infantil.
+
+Público:
+Padres y madres que buscan ayuda psicológica profesional para sus hijos.
+
+Objetivo principal:
+Generar confianza y conseguir solicitudes de primera consulta.
+
+Percepción buscada:
+- cercanía;
+- confianza;
+- profesionalidad;
+- tranquilidad;
+- especialización infantil.
+
+Evitar:
+- estética hospitalaria;
+- diseño excesivamente infantil;
+- apariencia de plantilla genérica;
+- estética SaaS;
+- exceso de elementos decorativos.
+
+## 3. Estructura de la página
+
+La home debe contener estos módulos:
+
+1. Hero potente con imagen protagonista, titular, texto breve y CTA.
+2. Tres razones principales para elegir el servicio.
+3. Presentación breve del servicio / terapia.
+4. Reseñas.
+5. FAQ.
+6. Formulario de contacto.
+7. Footer.
+
+Mantén esta arquitectura comercial.
+
+Puedes decidir libremente la composición interna y el tratamiento visual de cada módulo.
+
+## 4. Referencias
+
+Analiza las capturas de `references/screenshots/`.
+
+No copies literalmente ninguna referencia.
+
+Extrae de ellas únicamente lo que sea útil:
+
+- composición;
+- jerarquía;
+- tratamiento de imágenes;
+- tipografía;
+- ritmo;
+- uso del espacio;
+- colores;
+- densidad;
+- estilo de componentes;
+- sensación general.
+
+## 5. Usa frontend-design
+
+Invoca la skill `frontend-design`.
+
+Su objetivo en esta fase es definir una dirección artística específica para este proyecto.
+
+Quiero que propongas:
+
+- concepto visual;
+- personalidad;
+- enfoque del hero;
+- composición general;
+- paleta aproximada;
+- dirección tipográfica;
+- tratamiento de imágenes;
+- ritmo y espaciado;
+- estilo de botones y componentes;
+- elemento visual distintivo;
+- principios que debemos mantener durante toda la web.
+
+## 6. Importante
+
+NO programes todavía.
+
+NO crees componentes.
+
+NO inicialices ningún framework.
+
+NO modifiques todavía `DESIGN.md`.
+
+Primero presenta la propuesta de dirección visual para que pueda revisarla y aprobarla.
+
+Si detectas varias ideas posibles, elige una dirección principal coherente y justifica brevemente las decisiones más importantes.
