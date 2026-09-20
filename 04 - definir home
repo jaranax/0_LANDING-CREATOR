@@ -1,0 +1,38 @@
+Usa la skill `impeccable` y aplica su fase `shape`.
+
+Antes de trabajar, lee:
+
+- `AGENTS.md`
+- `BRIEF.md`
+- `PRODUCT.md`
+- `DESIGN.md`
+- `references/screenshots/`
+
+La dirección visual de `DESIGN.md` ya está aprobada y no debe replantearse.
+
+Tu tarea ahora es definir la composición y el layout de la home manteniendo esta arquitectura:
+
+1. Hero
+2. Tres razones para elegir el servicio
+3. Presentación del servicio / terapia
+4. Reseñas
+5. FAQ
+6. Formulario de contacto
+7. Footer
+
+Para cada sección define brevemente:
+
+- objetivo;
+- composición;
+- jerarquía;
+- distribución desktop;
+- comportamiento móvil;
+- relación visual con la sección anterior y siguiente.
+
+Puedes mejorar el orden interno y la composición de cada módulo, pero no eliminar ni añadir secciones principales sin autorización.
+
+No programes todavía.
+No crees componentes.
+No modifiques `DESIGN.md`.
+
+Quiero primero una propuesta clara del layout completo de la home para revisarla antes de implementar.
