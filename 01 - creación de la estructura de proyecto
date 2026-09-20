@@ -1,0 +1,478 @@
+# INICIALIZACIÓN DEL PROYECTO WEB
+
+Estamos creando un workspace local para diseñar y desarrollar una web.
+
+Este proyecto utilizará como metodología principal:
+
+- `frontend-design` para definir la dirección creativa y visual.
+- `impeccable` para estructurar, criticar, refinar y auditar la interfaz.
+
+Estas skills deben considerarse herramientas globales del agente. No copies sus archivos dentro de este proyecto ni crees versiones locales salvo que se solicite expresamente.
+
+---
+
+# 1. Comprueba el workspace
+
+Antes de crear nada, inspecciona la carpeta actual.
+
+No sobrescribas archivos existentes.
+
+Si el workspace todavía no está inicializado, crea únicamente la estructura necesaria:
+
+```text
+/
+├── AGENTS.md
+├── PRODUCT.md
+├── DESIGN.md
+├── BRIEF.md
+├── references/
+│   └── screenshots/
+├── .tmp/
+└── .gitignore
+```
+
+No crees todavía un framework frontend, `src/`, `public/`, dependencias, configuración de React, Next.js, Astro, Tailwind u otras tecnologías.
+
+La tecnología se decidirá posteriormente.
+
+---
+
+# 2. AGENTS.md
+
+Crea `AGENTS.md` con las reglas operativas estables del proyecto.
+
+Debe indicar que el agente trabaja siguiendo este proceso:
+
+```text
+BRIEF
+↓
+REFERENCIAS
+↓
+DIRECCIÓN VISUAL
+↓
+DESIGN SYSTEM
+↓
+IMPLEMENTACIÓN
+↓
+CRÍTICA
+↓
+REFINADO
+↓
+AUDITORÍA
+```
+
+Incluye las siguientes reglas:
+
+## Contexto obligatorio
+
+Antes de diseñar o modificar interfaces, consulta cuando existan:
+
+1. `BRIEF.md`
+2. `PRODUCT.md`
+3. `DESIGN.md`
+4. `references/`
+
+No inventes información del negocio que no esté documentada.
+
+## Frontend Design
+
+Utiliza `frontend-design` principalmente durante la fase de dirección creativa.
+
+Su responsabilidad es decidir:
+
+- concepto visual;
+- jerarquía;
+- composición;
+- lenguaje gráfico;
+- tratamiento de imágenes;
+- tipografía;
+- ritmo;
+- personalidad visual;
+- elemento o recurso distintivo del proyecto.
+
+No debe modificar arbitrariamente la arquitectura comercial definida por el usuario.
+
+Si el usuario ha definido una estructura como:
+
+```text
+Hero
+Beneficios
+Servicios
+Reseñas
+FAQ
+Formulario
+Footer
+```
+
+esa estructura debe mantenerse salvo autorización expresa.
+
+Puede modificar libremente la composición visual interna de cada módulo.
+
+## Impeccable
+
+Utiliza `impeccable` después de establecer la dirección visual.
+
+Sus funciones principales en este proyecto son:
+
+- estructurar;
+- criticar;
+- refinar;
+- comprobar responsive;
+- comprobar accesibilidad;
+- comprobar implementación;
+- realizar QA final.
+
+No debe sustituir una dirección visual ya aprobada salvo que el usuario solicite un rediseño.
+
+Cuando corresponda, utiliza sus capacidades equivalentes a:
+
+```text
+init
+shape
+critique
+polish
+audit
+```
+
+Cada fase debe respetar las decisiones documentadas previamente.
+
+## DESIGN.md
+
+`DESIGN.md` es la fuente de verdad del lenguaje visual del proyecto.
+
+Una vez definida la dirección visual, registra progresivamente:
+
+- concepto visual;
+- colores;
+- tipografías;
+- escala tipográfica;
+- spacing;
+- grid;
+- radios;
+- sombras;
+- superficies;
+- botones;
+- formularios;
+- cards;
+- iconografía;
+- tratamiento de imágenes;
+- reglas responsive;
+- movimiento;
+- componentes recurrentes;
+- reglas Do / Don't.
+
+No inventes valores únicamente para rellenar el documento.
+
+Actualízalo cuando una decisión visual se convierta en una regla estable del proyecto.
+
+## Consistencia
+
+Una vez aprobado `DESIGN.md`, cualquier nueva página o componente debe respetarlo.
+
+No introduzcas nuevas:
+
+- tipografías;
+- paletas;
+- radios;
+- sombras;
+- estilos de botones;
+- patrones visuales;
+
+sin una razón clara.
+
+Si es necesario ampliar el sistema de diseño, actualiza `DESIGN.md`.
+
+## Referencias
+
+Las imágenes y webs de referencia sirven para identificar:
+
+- composición;
+- ritmo;
+- jerarquía;
+- tratamiento gráfico;
+- uso del espacio;
+- lenguaje visual.
+
+No copies literalmente una referencia.
+
+Extrae principios y adáptalos al proyecto actual.
+
+## Desarrollo
+
+No empieces a programar una interfaz importante antes de entender:
+
+- el producto;
+- el público;
+- el objetivo de conversión;
+- la estructura;
+- las referencias;
+- la dirección visual.
+
+Prioriza componentes reutilizables cuando exista repetición real.
+
+No abstraigas prematuramente componentes usados una sola vez.
+
+## Validación
+
+Antes de considerar una página terminada:
+
+1. comprueba desktop;
+2. comprueba móvil;
+3. comprueba jerarquía;
+4. comprueba legibilidad;
+5. comprueba estados interactivos;
+6. comprueba accesibilidad básica;
+7. comprueba coherencia con `DESIGN.md`;
+8. realiza una revisión crítica visual;
+9. corrige los problemas detectados;
+10. realiza la auditoría final.
+
+---
+
+# 3. PRODUCT.md
+
+Crea `PRODUCT.md` como plantilla para almacenar información estable sobre el negocio y el producto.
+
+Incluye únicamente estos apartados:
+
+```markdown
+# Producto
+
+## Negocio
+
+## Servicio principal
+
+## Público objetivo
+
+## Problema principal
+
+## Objetivo de la web
+
+## Conversión principal
+
+## Posicionamiento
+
+## Percepción que queremos transmitir
+
+## Percepción que queremos evitar
+
+## Restricciones
+```
+
+No inventes el contenido si todavía no ha sido proporcionado.
+
+---
+
+# 4. BRIEF.md
+
+Crea `BRIEF.md` como documento de trabajo del proyecto.
+
+Incluye:
+
+```markdown
+# Brief
+
+## Proyecto
+
+## Objetivo
+
+## Público
+
+## Servicios
+
+## Estructura de la página
+
+## Contenido disponible
+
+## CTA principal
+
+## Referencias
+
+## Preferencias visuales
+
+## Elementos obligatorios
+
+## Elementos a evitar
+
+## Notas
+```
+
+Este documento puede evolucionar durante las primeras fases del proyecto.
+
+---
+
+# 5. DESIGN.md
+
+Crea inicialmente solo esta estructura:
+
+```markdown
+# Design System
+
+## Dirección visual
+
+Pendiente de definir.
+
+## Principios
+
+Pendiente de definir.
+
+## Color
+
+Pendiente de definir.
+
+## Tipografía
+
+Pendiente de definir.
+
+## Layout
+
+Pendiente de definir.
+
+## Spacing
+
+Pendiente de definir.
+
+## Componentes
+
+Pendiente de definir.
+
+## Imágenes
+
+Pendiente de definir.
+
+## Motion
+
+Pendiente de definir.
+
+## Responsive
+
+Pendiente de definir.
+
+## Do
+
+Pendiente de definir.
+
+## Don't
+
+Pendiente de definir.
+```
+
+No rellenes estos apartados hasta que exista evidencia o una decisión de diseño.
+
+---
+
+# 6. Referencias
+
+Crea:
+
+```text
+references/
+└── screenshots/
+```
+
+Las capturas visuales proporcionadas por el usuario se almacenarán en `references/screenshots/`.
+
+Si posteriormente se utilizan URLs como referencia, pueden documentarse dentro de `BRIEF.md`.
+
+No descargues ni copies automáticamente webs completas.
+
+---
+
+# 7. Archivos temporales
+
+Crea:
+
+```text
+.tmp/
+```
+
+Utilízala para:
+
+- screenshots de validación;
+- resultados intermedios;
+- exportaciones temporales;
+- pruebas;
+- archivos regenerables.
+
+Nada importante debe existir únicamente en `.tmp/`.
+
+---
+
+# 8. Gitignore
+
+Crea `.gitignore` si no existe.
+
+Incluye como mínimo:
+
+```gitignore
+.env
+.tmp/
+node_modules/
+dist/
+.next/
+.DS_Store
+```
+
+No crees `.env` salvo que posteriormente sea necesario.
+
+---
+
+# 9. No crear todavía
+
+Durante esta inicialización NO crees:
+
+- `directives/`;
+- `memory/`;
+- `execution/`;
+- `data/`;
+- componentes;
+- páginas;
+- código frontend;
+- configuración de framework;
+- dependencias;
+- package.json;
+- Tailwind;
+- React;
+- Next.js;
+- Astro;
+- base de datos;
+- APIs;
+- despliegue.
+
+Solo crea infraestructura cuando el proyecto realmente la necesite.
+
+---
+
+# 10. Skills
+
+Comprueba si están disponibles:
+
+```text
+frontend-design
+impeccable
+```
+
+Si están disponibles globalmente, utilízalas desde su instalación existente.
+
+No las dupliques dentro del proyecto.
+
+Si alguna no está disponible, indícalo claramente antes de intentar sustituirla o recrearla.
+
+---
+
+# 11. Final de la inicialización
+
+Cuando termines:
+
+1. muestra el árbol creado;
+2. indica qué archivos ya existían;
+3. indica cuáles has creado;
+4. confirma si `frontend-design` está disponible;
+5. confirma si `impeccable` está disponible;
+6. no empieces todavía el diseño de la web.
+
+La inicialización termina cuando el workspace está preparado para recibir:
+
+```text
+brief + estructura + referencias visuales
+```
